@@ -2,7 +2,7 @@
 <p>A hazai weboldalakat elnézegetve egyértelmű, hogy alapos ráncfelvarrásra lenne szükségük. Ez alól az alapítványok webes megjelenésük sem kivétel. Mivel egyes alapítványoknak a működéséhez szükséges pénz előteremtése is nagy feladat, nem marad semmi erőforrásuk a weboldaluk korszerűsítésére. Ezért szeretnénk elindítani ezt a kezdeményezést, ahol a hazai UI tervezők, front/back-en fejlesztők közösen összefognak itt a GitHub falai között és közös erővel megújítjuk ezeket az alapítványi weboldalakat, amivel sokkal esztétikusabban tudják elérni a támogatóikat.</p>
 
 <h3>Munkafolyamat</h3>
-<br><p>Mi már összeszedtünk pár olyan oldalt amire erősen ráfér egy alapos ráncfelvarrás. Itt leginkább olyan site-ok vannak összegyűjtve amiket a jelenlegi formájában teljesen fölösleges foltozgatni, optimalizálgatni hanem teljesen újragondolni és redizájnolni (a lista lejjebb).
+<p>Mi már összeszedtünk pár olyan oldalt amire erősen ráfér egy alapos ráncfelvarrás. Itt leginkább olyan site-ok vannak összegyűjtve amiket a jelenlegi formájában teljesen fölösleges foltozgatni, optimalizálgatni hanem teljesen újragondolni és redizájnolni (a lista lejjebb).
 <br>Maga a munkafolyamat nagyon egyszerü mindenki az csinál amit akar. Lehet az 1 sor kód, de lehet egy egész site mockup is.
 <br>Minden egyes alapítványi weboldal kap egy külön-külön Github repository-t. Így sokkal átláthatóbb és kezelhetőbb lesz az egész projekt (link a listában).
 <br>Napokban fel fog kerülni egy általunk készített nagyon egyszerű framework-szerűség. Ez semmilyen dizájnbeli deklarációt nem fog tartalmazni csak működésbeli (pl.: oszlop rendszer, btn viselkedés, media query-k, stb.) amihez készünk egy wikit is.
