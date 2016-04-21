@@ -2,19 +2,61 @@
 <p>A hazai weboldalakat elnézegetve egyértelmű, hogy alapos ráncfelvarrásra lenne szükségük. Ez alól az alapítványok webes megjelenésük sem kivétel. Mivel egyes alapítványoknak a működéséhez szükséges pénz előteremtése is nagy feladat, nem marad semmi erőforrásuk a weboldaluk korszerűsítésére. Ezért szeretnénk elindítani ezt a kezdeményezést, ahol a hazai UI tervezők, front/back-en fejlesztők közösen összefognak itt a GitHub falai között és közös erővel megújítjuk ezeket az alapítványi weboldalakat, amivel sokkal esztétikusabban tudják elérni a támogatóikat.</p>
 
 <h3>Munkafolyamat</h3>
-<p>Mi már összeszedtünk pár olyan oldalt amire erősen ráfér egy alapos ráncfelvarrás. Itt leginkább olyan site-ok vannak összegyűjtve amiket a jelenlegi formájában teljesen fölösleges foltozgatni, optimalizálgatni hanem teljesen újragondolni és redizájnolni (a lista lejjebb).
-<br>Maga a munkafolyamat nagyon egyszerü mindenki az csinál amit akar. Lehet az 1 sor kód, de lehet egy egész site mockup is.
-<br>Minden egyes alapítványi weboldal kap egy külön-külön Github repository-t. Így sokkal átláthatóbb és kezelhetőbb lesz az egész projekt (link a listában).
-<br>Napokban fel fog kerülni egy általunk készített nagyon egyszerű framework-szerűség. Ez semmilyen dizájnbeli deklarációt nem fog tartalmazni csak működésbeli (pl.: oszlop rendszer, btn viselkedés, media query-k, stb.) amihez készünk egy wikit is.
-<br>Maga a framework ezen repository alatt lesz, így ha valaki szeretne belenyúlni az itt küldje a requesteket. 
+<p>Mi már összeszedtünk pár olyan oldalt amire erősen ráfér egy alapos ráncfelvarrás. Itt leginkább olyan site-ok vannak összegyűjtve amiket a jelenlegi formájában teljesen fölösleges foltozgatni, optimalizálgatni hanem teljesen újragondolni és redizájnolni (a lista lejjebb). Aki már találkozott vagy ismer olyan alapítványi oldalt ami szintén felújításra szorul frissítse a listát.
+<br>Maga a munkafolyamat nagyon egyszerü mindenki azt csinál amit akar. Lehet az 1 sor kód, de lehet egy egész site mockup is.
+<br>A repository-hoz csináltam egy nagyon egyszerű keretrendszert. Ez semmilyen dizájnbeli deklarációt nem tartalmaz csak működésbeli (pl.: oszlop rendszer, btn viselkedés, media query-k, stb.) amihez készítünk egy wikit is.
+<br>Természetesen a keretrendszert használata nem kötelező.
 </p>
 <h3>Alapítványok listája</h3>
 <ul>
-	<li><a href="http://www.onzetlenul.hu/" target="_blank">Önzetlenül Másokért Alapítvány</a> (<a href="https://github.com/DiversyOS/onzetlenul_alapitvany">Github repository</a>)</li>
-	<li><a href="http://www.rakellen.hu/" target="_blank">A Rák Ellen, az Emberért, a Holnapért! Társadalmi Alapítvány</a> (<a href="https://github.com/DiversyOS/rakellen-alapitvany">Github repository</a>)</li>
-	<li><a href="http://vakvezetokutya.internettudakozo.hu/" target="_blank">Vakvezető Kutyaképzés Segítő Somlai Angyalka Alapítvány </a> (<a href="https://github.com/DiversyOS/vakvezeto-alapitvany">Github repository</a>)</li>
-	<li><a href="http://www.allatmento.eu/" target="_blank">Országos Állatmentő Alapítvány</a> (<a href="https://github.com/DiversyOS/allatmento-alapitvany">Github repository</a>)</li>
-	<li><a href="http://www.emlorakalapitvany.eoldal.hu/" target="_blank">Az Emlőrák gyógyításért Alapítvány</a> (<a href="https://github.com/DiversyOS/emlorak-alapitvany">Github repository</a>)</li>
-	<li><a href="http://www.world-green-hope.com/" target="_blank">Green Hop - Zöld Remény Alapítvány</a> (<a href="https://github.com/DiversyOS/greenhop-alapitvany">Github repository</a>)</li>
-	<li><a href="http://www.mgya.org/" target="_blank">Magyar Gyerekmentő Alapítvány</a> (<a href="https://github.com/DiversyOS/gyerekmento-alapitvany">Github repository</a>)</li>
+	<li><a href="http://www.onzetlenul.hu/" target="_blank">Önzetlenül Másokért Alapítvány</a></li>
+	<li><a href="http://www.rakellen.hu/" target="_blank">A Rák Ellen, az Emberért, a Holnapért! Társadalmi Alapítvány</a></li>
+	<li><a href="http://vakvezetokutya.internettudakozo.hu/" target="_blank">Vakvezető Kutyaképzés Segítő Somlai Angyalka Alapítvány </a></li>
+	<li><a href="http://www.allatmento.eu/" target="_blank">Országos Állatmentő Alapítvány</a></li>
+	<li><a href="http://www.emlorakalapitvany.eoldal.hu/" target="_blank">Az Emlőrák gyógyításért Alapítvány</a></li>
+	<li><a href="http://www.world-green-hope.com/" target="_blank">Green Hop - Zöld Remény Alapítvány</a></li>
+	<li><a href="http://www.mgya.org/" target="_blank">Magyar Gyerekmentő Alapítvány</a></li>
 </ul>
+
+<hr>
+Repository mappa szerkezete:
+alapitvany
+|-keret
+		|-stylesheet
+				|-css
+|-sites
+		|-onzetlenul_alapitvany
+				|-img
+				|-js
+				|-stylesheet
+						|-css
+		|-rakellen-alapitvany
+						|-img
+						|-js
+						|-stylesheet
+								|-css
+		|-vakvezeto-alapitvany
+						|-img
+						|-js
+						|-stylesheet
+								|-css
+		|-allatmento-alapitvany
+						|-img
+						|-js
+						|-stylesheet
+								|-css
+		|-emlorak-alapitvany
+						|-img
+						|-js
+						|-stylesheet
+								|-css
+		|-greenhop-alapitvany
+						|-img
+						|-js
+						|-stylesheet
+								|-css
+		|-gyerekmento-alapitvany
+						|-img
+						|-js
+						|-stylesheet
+								|-css
