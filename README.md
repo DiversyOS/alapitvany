@@ -25,6 +25,7 @@ alapitvany
 <br>|--stylesheet
 <br>|---css
 <br>|-sites
+<br>|-alapitvanyok
 <br>|--onzetlenul_alapitvany
 <br>|---img
 <br>|---js
