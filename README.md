@@ -21,42 +21,42 @@
 <hr>
 Repository mappa szerkezete:
 alapitvany
-|-keret
-		|-stylesheet
-				|-css
-|-sites
-		|-onzetlenul_alapitvany
-				|-img
-				|-js
-				|-stylesheet
-						|-css
-		|-rakellen-alapitvany
-						|-img
-						|-js
-						|-stylesheet
-								|-css
-		|-vakvezeto-alapitvany
-						|-img
-						|-js
-						|-stylesheet
-								|-css
-		|-allatmento-alapitvany
-						|-img
-						|-js
-						|-stylesheet
-								|-css
-		|-emlorak-alapitvany
-						|-img
-						|-js
-						|-stylesheet
-								|-css
-		|-greenhop-alapitvany
-						|-img
-						|-js
-						|-stylesheet
-								|-css
-		|-gyerekmento-alapitvany
-						|-img
-						|-js
-						|-stylesheet
-								|-css
+<br>|-keret
+<br>|--stylesheet
+<br>|---css
+<br>|-sites
+<br>|--onzetlenul_alapitvany
+<br>|---img
+<br>|---js
+<br>|---stylesheet
+<br>|----css
+<br>|--rakellen-alapitvany
+<br>|---img
+<br>|---js
+<br>|---stylesheet
+<br>|----css
+<br>|--vakvezeto-alapitvany
+<br>|---img
+<br>|---js
+<br>|---stylesheet
+<br>|----css
+<br>|--allatmento-alapitvany
+<br>|---img
+<br>|---js
+<br>|---stylesheet
+<br>|----css
+<br>|--emlorak-alapitvany
+<br>|---img
+<br>|---js
+<br>|---stylesheet
+<br>|----css
+<br>|--greenhop-alapitvany
+<br>|---img
+<br>|---js
+<br>|---stylesheet
+<br>|----css
+<br>|--gyerekmento-alapitvany
+<br>|---img
+<br>|---js
+<br>|---stylesheet
+<br>|----css
