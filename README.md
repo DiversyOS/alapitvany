@@ -4,7 +4,7 @@
 <h3>Munkafolyamat</h3>
 <p>Mi már összeszedtünk pár olyan oldalt amire erősen ráfér egy alapos ráncfelvarrás. Itt leginkább olyan site-ok vannak összegyűjtve amiket a jelenlegi formájában teljesen fölösleges foltozgatni, optimalizálgatni hanem teljesen újragondolni és redizájnolni (a lista lejjebb). Aki már találkozott vagy ismer olyan alapítványi oldalt ami szintén felújításra szorul frissítse a listát.
 <br>Maga a munkafolyamat nagyon egyszerü mindenki azt csinál amit akar. Lehet az 1 sor kód, de lehet egy egész site mockup is.
-<br>A repository-hoz csináltam egy nagyon egyszerű keretrendszert. Ez semmilyen dizájnbeli deklarációt nem tartalmaz csak működésbeli (pl.: oszlop rendszer, btn viselkedés, media query-k, stb.) amihez készítünk egy wikit is.
+<br>A repository-hoz csináltam egy nagyon egyszerű keretrendszert. Ez semmilyen dizájnbeli deklarációt nem tartalmaz csak működésbeli (pl.: oszlop rendszer, btn viselkedés, media query-k, stb.). 
 <br>Természetesen a keretrendszert használata nem kötelező.
 </p>
 <h3>Alapítványok listája</h3>
@@ -21,9 +21,6 @@
 <hr>
 Repository mappa szerkezete:
 alapitvany
-<br>|-keret
-<br>|--stylesheet
-<br>|---css
 <br>|-sites
 <br>|-alapitvanyok
 <br>|--onzetlenul_alapitvany
