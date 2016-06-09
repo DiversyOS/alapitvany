@@ -16,45 +16,5 @@
 	<li><a href="http://www.emlorakalapitvany.eoldal.hu/" target="_blank">Az Emlőrák gyógyításért Alapítvány</a></li>
 	<li><a href="http://www.world-green-hope.com/" target="_blank">Green Hop - Zöld Remény Alapítvány</a></li>
 	<li><a href="http://www.mgya.org/" target="_blank">Magyar Gyerekmentő Alapítvány</a></li>
+	<li><a href="http://www.lalabohoc.hu/" target="_blank">Lala bohócdoktor</a></li>
 </ul>
-
-<hr>
-Repository mappa szerkezete:
-alapitvany
-<br>|-sites
-<br>|-alapitvanyok
-<br>|--onzetlenul_alapitvany
-<br>|---img
-<br>|---js
-<br>|---stylesheet
-<br>|----css
-<br>|--rakellen-alapitvany
-<br>|---img
-<br>|---js
-<br>|---stylesheet
-<br>|----css
-<br>|--vakvezeto-alapitvany
-<br>|---img
-<br>|---js
-<br>|---stylesheet
-<br>|----css
-<br>|--allatmento-alapitvany
-<br>|---img
-<br>|---js
-<br>|---stylesheet
-<br>|----css
-<br>|--emlorak-alapitvany
-<br>|---img
-<br>|---js
-<br>|---stylesheet
-<br>|----css
-<br>|--greenhop-alapitvany
-<br>|---img
-<br>|---js
-<br>|---stylesheet
-<br>|----css
-<br>|--gyerekmento-alapitvany
-<br>|---img
-<br>|---js
-<br>|---stylesheet
-<br>|----css
