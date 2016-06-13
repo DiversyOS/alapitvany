@@ -6,7 +6,6 @@
 <br>Maga a munkafolyamat nagyon egyszerü mindenki azt csinál amit akar. Lehet az 1 sor kód, de lehet egy egész site mockup is.
 <br>A repository-hoz csináltam egy nagyon egyszerű keretrendszert. Ez semmilyen dizájnbeli deklarációt nem tartalmaz csak működésbeli (pl.: oszlop rendszer, btn viselkedés, media query-k, stb.). A keretrendszer (wispy) repository <a href="https://github.com/khanar/wispy-framework"> ITT </a>található.
 <br>Természetesen a keretrendszert használata opcionális.
->>>>>>> 5c7ef21f30eb06f6039b1fbe2cb558103039297c
 </p>
 <h3>Alapítványok listája</h3>
 <ul>
