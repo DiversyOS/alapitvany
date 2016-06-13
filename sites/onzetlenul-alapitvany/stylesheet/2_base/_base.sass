@@ -1,0 +1,47 @@
+::after,
+::before
+	box-sizing: content-box
+	+clearfix
+
+*
+	margin: 0
+	padding: 0
+	border: 0
+
+body
+	font:
+		size: $body
+		family: $primaryFont
+	color: $black
+
+.title
+	font:
+		family: $secondaryFont
+		weight: 500
+		size: $title
+
+li
+	list-style: none
+
+a
+	text-decoration: none
+	color: $link
+	&:hover
+		color: $linkHover
+
+section,
+.container
+	+clearfix
+
+@include media(phone)
+	.hide-phone
+		display: none
+@include media(tablet)
+	.hide-tablet
+		display: none
+@include media(laptop)
+	.hide-tablet
+		display: none
+@include media(desktop)
+	.hide-tablet
+		display: none

@@ -1,0 +1,20 @@
+=clearfix()
+	&::after,
+	&::before
+		content: ""
+		display: table
+	&::after
+		clear: both
+
+=media ($query)
+	@if $query == phone
+		@media (max-width: $xs)
+			@content
+	@else if $query == tablet
+		@media (min-width: $xs + 1) and (max-width: $sm)
+			@content
+	@else if $query == laptop
+		@media (min-width: $sm + 1) and ($md)
+			@content
+	@else if $query == desktop
+		@media (min-width: $md + 1)

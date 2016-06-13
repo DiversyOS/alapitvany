@@ -1,0 +1,126 @@
+#navigation
+	position: fixed
+	width: 100%
+	box-sizing: border-box
+	padding: 0 15px
+	z-index: 1
+	background: $gradient
+	display: flex
+	justify-content: space-between
+	color: $white
+	opacity: .97
+	@include media(tablet)
+		flex-direction: column
+		align-items: center
+
+	.logo
+		display: flex
+		align-items: center
+		margin: 0 10px
+		h1
+			font-family: $secondaryFont
+			letter-spacing: 1px
+			text-shadow: 1px 1px 2px rgba(0,0,0,.3)
+			@media (max-width: 480px)
+				font-size: 1.2em
+				width: 140px
+			span
+				display: block
+				text-align: center
+				font:
+					size: .8em
+					weight: normal
+				@include media(phone)
+					display: none
+
+	.nav
+		display: flex
+		align-items: center
+		@include media(tablet)
+			margin-bottom: 10px
+		&--toggle
+			display: none
+			align-items: center
+			height: 50px
+			width: 50px
+			border-radius: 50%
+			background: $white
+			margin: 10px 10px
+			@include media(phone)
+				display: flex
+			span
+				display: block
+				height: 3px
+				width: 70%
+				margin: 0 auto
+				background: $gradient
+				&::after,
+				&::before
+					content: ''
+					height: 3px
+					width: auto
+					position: relative
+					background: $gradient
+					display: block
+					transition: all .3s ease-in-out
+					transform: rotate(0deg)
+				&::before
+					top: 10px
+				&::after
+					bottom: 13px
+		ul
+			@include media(phone)
+				display: flex
+				flex-direction: column
+				align-items: center
+				height: 100vh
+				width: calc(100% - 100px)
+				position: absolute
+				left: 0
+				background: rgba($black, .95)
+				transition: transform .3s ease-in-out
+				transform: translateX(-100%)
+			li
+				float: left
+				margin: 0 10px
+				padding: 5px 10px
+				font-family: $secondaryFont
+				text-transform: uppercase
+				letter-spacing: 1px
+				border-bottom: 2px solid transparent
+				transition: border .1s ease-in-out
+				&:hover
+					border-bottom: 2px solid $white
+				@include media(phone)
+					margin-top: 20px
+				a
+					color: $white
+					//text-shadow: 1px 1px 1px rgba(0,0,0,.1)
+			.bank
+				display: none
+				margin: 40px 0
+				border-bottom: none
+				@include media(phone)
+					display: list-item
+				&:hover
+					border-bottom: none
+				p
+					text-align: center
+					color: $greenGrad2
+					span
+						display: block
+						margin-top: 10px
+						font-size: $subheading
+						color: $greenGrad1
+
+.open
+	transform: translateX(0) !important
+.close span
+	background: transparent !important
+	transition: all .5s ease-in-out
+	&::before
+		transform: rotate(45deg) !important
+		top: 0 !important
+	&::after
+		transform: rotate(-45deg) !important
+		bottom: 3px !important
