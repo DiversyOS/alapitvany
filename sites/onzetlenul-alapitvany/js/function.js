@@ -4,7 +4,7 @@
 			$body,
 			$window,
 			$settings = {
-				scrollDuration: 300
+				scrollDuration: 400
 			};
 
 	function onClick () {
