@@ -4,10 +4,6 @@
 <h3>Munkafolyamat</h3>
 <p>Mi már összeszedtünk pár olyan oldalt amire erősen ráfér egy alapos ráncfelvarrás. Itt leginkább olyan site-ok vannak összegyűjtve amiket a jelenlegi formájában teljesen fölösleges foltozgatni, optimalizálgatni hanem teljesen újragondolni és redizájnolni (a lista lejjebb). Aki már találkozott vagy ismer olyan alapítványi oldalt ami szintén felújításra szorul frissítse a listát.
 <br>Maga a munkafolyamat nagyon egyszerü mindenki azt csinál amit akar. Lehet az 1 sor kód, de lehet egy egész site mockup is.
-<<<<<<< HEAD
-<br>A repository-hoz csináltam egy nagyon egyszerű keretrendszert. Ez semmilyen dizájnbeli deklarációt nem tartalmaz csak működésbeli (pl.: oszlop rendszer, btn viselkedés, media query-k, stb.). A keretrendszer (wispy) repository <a href="https://github.com/khanar/wispy-framework">ITT</a>található.
-<br>Természetesen a keretrendszert használata opciónális.
-=======
 <br>A repository-hoz csináltam egy nagyon egyszerű keretrendszert. Ez semmilyen dizájnbeli deklarációt nem tartalmaz csak működésbeli (pl.: oszlop rendszer, btn viselkedés, media query-k, stb.). A keretrendszer (wispy) repository <a href="https://github.com/khanar/wispy-framework"> ITT </a>található.
 <br>Természetesen a keretrendszert használata opcionális.
 >>>>>>> 5c7ef21f30eb06f6039b1fbe2cb558103039297c
