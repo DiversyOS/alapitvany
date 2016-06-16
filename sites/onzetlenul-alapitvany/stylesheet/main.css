@@ -627,13 +627,12 @@ section::after,
 #header {
   position: relative;
   top: 73px;
-  padding: 0 15px; }
-  #header .bg-image {
-    height: 100%;
-    background-image: url("/img/bg-about.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center; }
+  padding: 0 15px;
+  height: 100%;
+  background-image: url("/img/bg-about.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
   #header .flex--space-around {
     height: 100%;
     padding: 10px 0 40px 0; }
