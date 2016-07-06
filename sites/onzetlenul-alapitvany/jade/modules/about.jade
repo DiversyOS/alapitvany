@@ -1,8 +1,24 @@
+mixin profil-man (name)
+	.flex--a-center.volunteer--profil
+		img(src='/img/face_man.jpeg')
+		p.name= name
+		p.desc Valami leíras az onkenytesrol
+mixin profil-woman (name)
+	.flex--a-center.volunteer--profil
+		img(src='/img/face_woman.jpg')
+		p.name= name
+		p.desc Valami leíras az onkenytesrol
+		
+		
 section#about
 	.section--title
-		p valami nagyon szep
-		span
+		h1 Rólunk
+		span.underline
 	.section--body
-		.section--body--volunteer
 		.section--body--area
-		
+			p Alapítványunk tevékenységének egyik fő területe az adománygyűjtés és ezek szétosztása. Önkénteseink, alapvető élelmiszerek, ruha és egyéb használati tárgyak, játékok begyűjtésével és a rászorulók közti szétosztásával foglalkozik. Ezek beszerzéséhez és szétosztásához pénzbeli adományokat is gyűjtünk.<br><br>Önkénteseink közterületen, és házról-házra járva is gyűjtenek adományokat. Ilyenkor közvetlenül szembesülünk azzal is, hol van szükség a segítségünkre. Ha olyan családokkal találkozunk akik segítségre szorulnak, megpróbálunk képességeink szerint visszalátogatni hozzájuk később valamelyik segélyakciónk keretében.<br><br>Sajnos munkánk során azt tapasztaljuk, hogy egyre többen nélkülöznek, és egyre kevesebben képesek arra, hogy segítsenek.
+		.flex--space-between.section--body--volunteer
+			+profil-man ('Antal Szilveszter')
+			+profil-man ('Lukács István')
+			+profil-woman ('Döme Beatrix')
+			+profil-woman ('Soós Éva')

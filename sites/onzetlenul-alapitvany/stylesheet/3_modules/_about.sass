@@ -1,10 +1,40 @@
 #about
+	position: relative
+	top: 70px
 	background: $dark
-	height: 300px
+	padding: 0 15px
 	.section--title
-		p
+		h1
+			position: relative
+			letter-spacing: 2px
+			display: inline-block
+			margin: 40px 0 30px 0
 			color: $white
-		span
-			width: 100px
-			height: 50px
+		span.underline
+			position: absolute
+			display: inline-block
+			top: 70px
+			left: 15px
+			width: calc(100% - 30px)
+			height: 3px
 			background: $gradient
+			padding: 0 15px
+	.section--body
+		width: 50%
+		margin: auto
+		&--area
+			margin-bottom: 20px
+			color: $white
+			letter-spacing: 1px
+		&--volunteer
+			+clearfix
+			.volunteer--profil
+				flex-direction: column
+				width: 25%
+				float: left
+				//background: $white
+				padding: 0 10px
+				img
+					border-radius: 50%
+					width: 100px
+					margin	auto

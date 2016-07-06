@@ -399,7 +399,8 @@ h6 {
 * {
   margin: 0;
   padding: 0;
-  border: 0; }
+  border: 0;
+  box-sizing: border-box; }
 
 body {
   font-size: 0.875em;
@@ -626,13 +627,16 @@ section::after,
 
 #header {
   position: relative;
-  top: 73px;
+  top: 70px;
   padding: 0 15px;
   height: 100%;
   background-image: url("/img/bg-about.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #header {
+      top: 110px; } }
   #header .flex--space-around {
     height: 100%;
     padding: 10px 0 40px 0; }
@@ -703,21 +707,56 @@ section::after,
             font-size: 1em; } }
 
 #about {
+  position: relative;
+  top: 70px;
   background: #403E3B;
-  height: 300px; }
-  #about .section--title p {
+  padding: 0 15px; }
+  #about .section--title h1 {
+    position: relative;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin: 40px 0 30px 0;
     color: whitesmoke; }
-  #about .section--title span {
-    width: 100px;
-    height: 50px;
+  #about .section--title span.underline {
+    position: absolute;
+    display: inline-block;
+    top: 70px;
+    left: 15px;
+    width: calc(100% - 30px);
+    height: 3px;
     background: -webkit-linear-gradient(278deg, #5CCC5C 0, #79E0B7 100%);
-    background: linear-gradient(172deg, #5CCC5C 0, #79E0B7 100%); }
+    background: linear-gradient(172deg, #5CCC5C 0, #79E0B7 100%);
+    padding: 0 15px; }
+  #about .section--body {
+    width: 50%;
+    margin: auto; }
+    #about .section--body--area {
+      margin-bottom: 20px;
+      color: whitesmoke;
+      letter-spacing: 1px; }
+    #about .section--body--volunteer::after, #about .section--body--volunteer::before {
+      content: "";
+      display: table; }
+    #about .section--body--volunteer::after {
+      clear: both; }
+    #about .section--body--volunteer .volunteer--profil {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      width: 25%;
+      float: left;
+      padding: 0 10px; }
+      #about .section--body--volunteer .volunteer--profil img {
+        border-radius: 50%;
+        width: 100px; }
 
 [class^=flex--] {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important; }
 
 .flex--j-center {
   -webkit-box-pack: center;
